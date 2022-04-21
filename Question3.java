@@ -12,18 +12,12 @@ public class Question3
      
     Scanner in = new Scanner(System.in);
 
-    /**inputting data & setting variable**/
     System.out.println("Please enter an integer:");
-    long integer = in.nextInt();
-    int i = 1;
-
-    /**to run the first 5 multiplication**/
-    while(i <= 5){
-      integer = integer*integer;
-      i += 1;
+    int i = in.nextInt();
+    
+    i = i * i;
       
-      /**to display integer**/
-      System.out.println(integer);
-    }
+    System.out.println("The answer is: " + Integer.toString(i));
+    
   }
 }
