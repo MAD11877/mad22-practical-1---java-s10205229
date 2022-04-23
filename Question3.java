@@ -11,13 +11,11 @@ public class Question3
      */
      
     Scanner in = new Scanner(System.in);
-
-    System.out.println("Please enter an integer:");
     int i = in.nextInt();
     
     i = i * i;
       
-    System.out.println("The answer is: " + Integer.toString(i));
+    System.out.println(i);
     
   }
 }
