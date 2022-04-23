@@ -21,7 +21,6 @@ public class Question4
     Scanner in = new Scanner(System.in);
 
     /**prompting input & setting variable**/
-    System.out.println("Please enter an integer:");
     int num = in.nextInt();
     
     int i = 1;
