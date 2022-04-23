@@ -29,13 +29,10 @@ public class Question5
     Scanner in = new Scanner(System.in);
 
     /**prompting input & setting variable**/
-    System.out.println("Please enter an integer:");
     int num = in.nextInt();
     int[] b = new int[num];
     int i = 0;
-
-    System.out.println("Please enter a set of integer:");
-
+    
     /**while loop is used to cpature all the inputs**/
     while (i < num){
 
@@ -75,7 +72,7 @@ public class Question5
     }
 
     /**displaying**/
-    System.out.println("Integer: " + Integer.toString(maxint));
+    System.out.println(maxint);
     
   }
 }
