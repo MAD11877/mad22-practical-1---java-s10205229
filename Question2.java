@@ -15,10 +15,7 @@ public class Question2
     Scanner in = new Scanner(System.in);
     
     /**prompting input & setting variable**/
-    System.out.println("Please enter your height(m): ");
     double height = in.nextDouble();
-
-    System.out.println("Please enter your weight(kg): ");
     double weight = in.nextDouble();
     
     /**calculation**/
